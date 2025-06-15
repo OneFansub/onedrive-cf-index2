@@ -8,7 +8,7 @@ class MyDocument extends Document {
         <Head>
           <meta name="description" content="Index Anime de BeatZ-Anime" />
           <link rel="icon" href="/public/icons/beatz-anime-ico.ico" />
-          <meta name="robots" content= "index, follow">
+          <meta name="robots" content= "index, follow" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
           {siteConfig.googleFontLinks.map(link => (
