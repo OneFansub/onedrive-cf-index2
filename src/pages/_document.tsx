@@ -6,8 +6,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name="description" content="OneDrive Vercel Index" />
-          <link rel="icon" href="/favicon.ico" />
+          <meta name="description" content="Index Anime de BeatZ-Anime" />
+          <link rel="icon" href="/public/icons/beatz-anime-ico.ico" />
+          <meta name="robots" content= "index, follow">
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
           {siteConfig.googleFontLinks.map(link => (
